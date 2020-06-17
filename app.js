@@ -15,7 +15,7 @@ var uri = "mongodb+srv://" + db_admin.username + ":" + db_admin.password + "@clu
 var db = monk(uri);
 
 db.then(()=>{
-  console.log('Connected to server);
+  console.log('Connected to server');
 });
 
 var indexRouter = require('./routes/index');
